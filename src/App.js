@@ -10,6 +10,7 @@ import {
 
 function App() {
   return (
+    // all my routes
     <Router>
 
       <div class='App'>
