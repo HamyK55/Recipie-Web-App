@@ -1,7 +1,6 @@
 import './App.css';
 import Landing from './screens/Landing';
 import Searched from './screens/Searched'
-import NotFound from './screens/NotFound';
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,7 +17,6 @@ function App() {
         <Routes>
           <Route path='/' element={<Landing/>}/>
           <Route path='/recipe/:term' element={<Searched/>}/>
-          <Route path="*" element={<NotFound/>}/>
 
         </Routes>
 
