@@ -1,6 +1,6 @@
-# Disclaimer
+# !Disclaimer!
 
-This is a Tutorial I followed to learn more about web development, html, css, java script, api usage, deployment
+This is a Tutorial I followed to learn more about web development, html, css, java script, api usage, deployment.
 
 # Getting Started with Create React App
 
