@@ -20,6 +20,8 @@ function Searched() {
 
   // when ever the screen is rendered, run getSearch
   // and also when ever the term in the url is changed, run getSearched
+
+  //Get data from api after page is run
   useEffect(() => {
 
     /**

@@ -5,7 +5,34 @@
 
 /* LANDING PAGE */
 
+.landing-body{
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh; /*  The full view port (screen) */
+    background-image: url('https://img.freepik.com/free-photo/frame-vegetables-herbs-light-table-cooking-background-view-from-cooking-ingredients-background-menu-table-copy-space_88526-1614.jpg?w=2000');
+    overflow: hidden;
+}
 
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 363px;
+}
+
+.search-input{
+    width: 450px;
+
+    border-radius: 20px;
+
+    padding: 10px;
+
+    outline: auto;
+
+    background-color: transparent;
+}
 
 
 

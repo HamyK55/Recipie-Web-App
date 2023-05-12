@@ -1,7 +1,10 @@
 import './App.css';
 import Landing from './screens/Landing';
 import NotFound from './screens/NotFound';
-import Searched from './screens/Searched'
+import Searched from './screens/Searched';
+import { IconName } from "react-icons/io";
+
+
 import {
   BrowserRouter as Router,
   Routes,
