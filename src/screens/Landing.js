@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
 import { useNavigate } from 'react-router-dom';
-import { IconName } from "react-icons/io";
 
 function Landing() {
 
@@ -20,7 +19,7 @@ function Landing() {
       <div class='centered'> 
         <h1 class="landing-title">The Cutting Board</h1>
         <form>
-          <input class='search-input' type='search' placeholder='Find a Recipe' onChange={(event) => { setRecipe(event.target.value) }}> <ion-icon name="search-outline"> </ion-icon> </input>
+          <input class='search-input' type='search' placeholder='Find a Recipe' onChange={(event) => { setRecipe(event.target.value) }}> </input>
           <button class="submit-btn" type='submit' onClick={submitForm}>Search</button>
         </form>
       </div>
