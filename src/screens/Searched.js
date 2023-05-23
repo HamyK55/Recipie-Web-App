@@ -35,16 +35,21 @@ function Searched() {
           console.log(response.data.meals)
           setSearchedRecipe(response.data.meals) // how do we know we want data.meals? ready api docs?
 
-          // remove hidden classes from divs we want shown based on if the response was null or not
+          /* 
+          All Searched html is defaulted to hidden
+          "Show" either no recipe found or all the info by:
+          removing the "hidden" class from respective div to show appropriate html
+          */
           if (response.data.meals == null) {
             setSearchedRecipe([]);
-            // find the html element (below) with given id
+            
+            
+            //Show "No recipe found" by removing 'hidden' from div with id 'request-null'
             const nullDisplay = document.getElementById('request-null');
-            // access all the classes that this div has (ie, all elems this div contains)
-            // then remove the "hidden" attribute from that div, (ie the css applied to hidden classes will no longer apply to this elem, it will be shown)
             nullDisplay.classList.remove('hidden');
           }
           else {
+            //Show api response info by removing 'hidden' from div with id 'request-exists'
             const showDisplay = document.getElementById('request-exists');
             showDisplay.classList.remove('hidden');
           }
