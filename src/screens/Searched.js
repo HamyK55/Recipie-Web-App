@@ -70,7 +70,7 @@ function Searched() {
 
       <div id='request-null' class='hidden centered' >
          <h1 class='landing-title'>No Recipe Found </h1>
-         <p1 class='simple-p1'>Try searching chicken, beef, apple, or some other ingredient</p1>
+         <p1 class='not-found'>Try searching chicken, beef, apple, or some other ingredient</p1>
           </div>
 
       <div id='request-exists' class='hidden'>

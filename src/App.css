@@ -84,7 +84,120 @@
 
 /* SEARCHED PAGE */
 
+.search-header{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 30px;
+}
+
+
+.return-button{
+  background-color: rgb(214, 36, 36);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+
+  /* Keep it fixed on the top right of the  */
+  position: fixed;
+  top: 1;
+  left: 0;
+}
+
+.return-button:hover{
+  border:1px solid black; 
+}
+
+/* Applied to everything on this page */
+.searched-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f7f8fc;
+  font-family: 'Albert Sans', sans-serif;
+  color: #10182f;
+  box-sizing: border-box;
+  /* background-image: url(''); */
+  background-color: 	#E0E0E0;
+}
+
+/* applied to elems inside the searched body-body div */
+.searched-container{
+  display: flex;
+  width: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* apply outlines and formatting to each response from api, into card */
+.card{
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* all the elems inside the card*/
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  /* min-height: 250px; */
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 15px;
   
+}
+.card-body a {
+  padding-top: 10px;
+}
+
+.tag{
+  background: #dc0e0e;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 10;
+  color: #fff;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.hidden{
+  display: none;
+}
+
+.not-found{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  text-align: center;
+  font-size: 26px;
+}
+
+
+
 
 
 
